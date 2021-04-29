@@ -1,0 +1,109 @@
+body{
+    background-color: rgba(44, 30, 30, 0.315);
+    font-family: cursive;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+#calculator{
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 1px 20px 15px 0px black;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+
+#result{
+    height: 120px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(223, 221, 219);
+}
+    #history{
+        /* border: 1px solid yellow; */
+        text-align: right;
+        margin: 0px 20px;
+        height: 50px;
+        color: rgb(46, 44, 44);
+        font-size: 13px;
+        padding-top: 10px;
+        letter-spacing: 1px;
+    }
+    #output{
+        /* border: 1px solid rgb(207, 15, 41); */
+        text-align: right;
+        height: 50px;
+        margin: 0px 20px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+#keyboard{
+    height: 430px;
+    background-color: white;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 18px;
+    float: left;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+button:active{
+    border: 2px solid black;
+}
+.empty:active{
+    border: none;
+}
+.number{
+    background-color: rgb(173, 173, 173);
+}
+.empty{
+    background-color: transparent;
+    border: none;
+}
+
+/* Divide */
+
+button:nth-child(4){
+    background-color: rgb(92, 117, 92);
+}
+
+/* multi  */
+
+button:nth-child(8){
+    background-color: orange;
+}
+
+
+/* minus  */
+
+button:nth-child(12){
+    background-color: rgb(172, 85, 85);
+}
+
+/* plus  */
+
+button:nth-child(16){
+    background-color: rgb(87, 87, 143);
+}
+/* equal */
+
+button:nth-child(20){
+    background-color:rgb(71, 69, 82);
+}
+
+
+
+#clear , #backspace , button:nth-child(3){
+    background-color: rgb(97, 97, 97);
+}
